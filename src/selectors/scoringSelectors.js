@@ -1,0 +1,1 @@
+export const getScoring = (state) => state.scoring;

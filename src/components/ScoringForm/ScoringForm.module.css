@@ -3,3 +3,8 @@
   margin-bottom: 10px !important;
   width: 100%;
 }
+
+.scoringForm {
+  max-height: 80vh;
+  overflow-y: scroll;
+}

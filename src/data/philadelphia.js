@@ -13,7 +13,7 @@ export const PHILADELPHIA = {
       returnTd: 1,
       fourthDownStop: 2,
       tackleForLoss: 1,
-      defenseYardsAllowed: 474,
+      yardsAllowed: 474,
       threeAndOuts: 3,
       patReturned: 0
     },
@@ -28,7 +28,7 @@ export const PHILADELPHIA = {
       returnTd: 1,
       fourthDownStop: 2,
       tackleForLoss: 1,
-      defenseYardsAllowed: 474,
+      yardsAllowed: 474,
       threeAndOuts: 3,
       patReturned: 0
     },
@@ -43,7 +43,7 @@ export const PHILADELPHIA = {
       returnTd: 1,
       fourthDownStop: 2,
       tackleForLoss: 1,
-      defenseYardsAllowed: 474,
+      yardsAllowed: 474,
       threeAndOuts: 3,
       patReturned: 0
     },
@@ -58,7 +58,7 @@ export const PHILADELPHIA = {
       returnTd: 1,
       fourthDownStop: 2,
       tackleForLoss: 1,
-      defenseYardsAllowed: 474,
+      yardsAllowed: 474,
       threeAndOuts: 3,
       patReturned: 0
     },

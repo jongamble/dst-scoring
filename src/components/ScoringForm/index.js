@@ -11,7 +11,7 @@ const renderFormFields = (values = [], handleChange) => {
     return (
       <Form.Group key={`${keyBase}-${idx}`} className={styles.formGroup}>
         <Form.Label xs={8}>{value.name}</Form.Label>
-        <Form.Control xs={4} type="number" name={value.id} id={value.id} onChange={handleChange} value={value.defaultValue} />
+        <Form.Control xs={4} type="number" name={value.id} id={value.id} onChange={handleChange} defaultValue={value.defaultValue} />
       </Form.Group>
     );
   });
@@ -24,7 +24,7 @@ const ScoringForm = () => {
   }
 
   return ( 
-    <Form inline>
+    <Form inline className={styles.scoringForm}>
       {renderFormFields(SCORING_METRICS, handleChange)}
     </Form>
    );
