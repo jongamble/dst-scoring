@@ -1,0 +1,66 @@
+export const PHILADELPHIA = {
+  id: 'philly',
+  name: 'Philly Eagles',
+  games: {
+    "1": {
+      pointsAllowed: 20,
+      sacks: 4,
+      interceptions: 3,
+      fumbleRecovery: 0,
+      touchdowns: 0,
+      safety: 0,
+      blockedKicks: 0,
+      returnTd: 1,
+      fourthDownStop: 2,
+      tackleForLoss: 1,
+      defenseYardsAllowed: 474,
+      threeAndOuts: 3,
+      patReturned: 0
+    },
+    "2": {
+      pointsAllowed: 20,
+      sacks: 4,
+      interceptions: 3,
+      fumbleRecovery: 0,
+      touchdowns: 0,
+      safety: 0,
+      blockedKicks: 0,
+      returnTd: 1,
+      fourthDownStop: 2,
+      tackleForLoss: 1,
+      defenseYardsAllowed: 474,
+      threeAndOuts: 3,
+      patReturned: 0
+    },
+    "3": {
+      pointsAllowed: 20,
+      sacks: 4,
+      interceptions: 3,
+      fumbleRecovery: 0,
+      touchdowns: 0,
+      safety: 0,
+      blockedKicks: 0,
+      returnTd: 1,
+      fourthDownStop: 2,
+      tackleForLoss: 1,
+      defenseYardsAllowed: 474,
+      threeAndOuts: 3,
+      patReturned: 0
+    },
+    "4": {
+      pointsAllowed: 20,
+      sacks: 4,
+      interceptions: 3,
+      fumbleRecovery: 0,
+      touchdowns: 0,
+      safety: 0,
+      blockedKicks: 0,
+      returnTd: 1,
+      fourthDownStop: 2,
+      tackleForLoss: 1,
+      defenseYardsAllowed: 474,
+      threeAndOuts: 3,
+      patReturned: 0
+    },
+  }
+}
