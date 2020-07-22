@@ -1,9 +1,10 @@
 import { TEAMS } from '../data';
 
-const selectedTeam = (state = [], action) => {
+const INITIAL_STATE = {id: 'all', name: 'all', games: {}}
+const selectedTeam = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case 'SET_SELECTED_TEAM':
-      const teamInfo = TEAMS.find((x) => x.id === action.id) || {id: 'all', name: 'all', games: {}}
+      const teamInfo = TEAMS.find((x) => x.id === action.id) || INITIAL_STATE;
       return {
         ...state,
         id: teamInfo.id,

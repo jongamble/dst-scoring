@@ -9,14 +9,18 @@ function App() {
   return (
     <Container className={styles.container}>
       <Row className={styles.header}>
-        <h1>Compare D/ST Scoring</h1>
+        <Col>
+          <h1>Compare D/ST Scoring</h1>
+        </Col>
+        <Col>
+          <TeamSelector />
+        </Col>
       </Row>
       <Row>
         <Col xs={5}>
           <ScoringForm />
         </Col>
         <Col xs={7}>
-          <TeamSelector />
           <DataTable />
         </Col>
       </Row>

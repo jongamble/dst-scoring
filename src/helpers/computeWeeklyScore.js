@@ -18,8 +18,6 @@ const computeYardsAllowed = (yardsAllowed) => {
 }
 
 export const computeWeeklyScore = (weeklyStats, scoringRules) => {
-  console.log('weeklyStats', weeklyStats);
-  console.log('scoringRules', scoringRules);
   return Object.keys(weeklyStats).reduce((acc, stat) => {
     
     switch (stat) {

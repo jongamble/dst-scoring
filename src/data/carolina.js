@@ -1,6 +1,6 @@
-export const TAMPA_BAY = {
-  id: 'tampa-bay',
-  name: 'Tampa Bay Buccaneers',
+export const CAROLINA = {
+  id: 'carolina',
+  name: 'Carolina Panthers',
   games: {
     "1": {
       pointsAllowed: 20,

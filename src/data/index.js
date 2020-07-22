@@ -1,7 +1,70 @@
-import { TAMPA_BAY } from './tampaBay';
+import { ARIZONA } from './arizona';
+import { ATLANTA } from './atlanta';
+import { BALTIMORE } from './baltimore';
+import { BUFFALO } from './buffalo';
+import { CAROLINA } from './carolina';
+import { CHICAGO } from './chicago';
+import { CINCINNATI } from './cincinnati';
+import { CLEVELAND } from './cleveland';
+import { DALLAS } from './dallas';
+import { DENVER } from './denver';
+import { DETROIT } from './detroit';
+import { GREEN_BAY } from './greenBay';
+import { HOUSTON } from './houston';
+import { INDIANAPOLIS } from './indianapolis';
+import { JACKSONVILLE } from './jacksonville';
+import { KANSAS_CITY } from './kansasCity';
+import { LA_CHARGERS } from './laChargers';
+import { LA_RAMS } from './laRams';
+import { MIAMI } from './miami';
+import { MINNESOTA } from './minnesota';
+import { NEW_ENGLAND } from './newEngland';
+import { NEW_ORLEANS } from './newOrleans';
+import { NY_GIANTS } from './nyGiants';
+import { NY_JETS } from './nyJets';
+import { OAKLAND } from './oakland';
 import { PHILADELPHIA } from './philadelphia';
+import { PITTSBURGH } from './pittsburgh';
+import { SAN_FRANCISCO } from './sanFrancisco';
+import { SEATTLE } from './seattle';
+import { TAMPA_BAY } from './tampaBay';
+import { TENNESSEE } from './tennessee';
+import { WASHINGTON } from './washington';
 
-export const TEAMS = [TAMPA_BAY, PHILADELPHIA];
+export const TEAMS = [
+  ARIZONA,
+  ATLANTA,
+  BALTIMORE,
+  BUFFALO,
+  CAROLINA,
+  CHICAGO,
+  CINCINNATI,
+  CLEVELAND,
+  DALLAS,
+  DENVER,
+  DETROIT,
+  GREEN_BAY,
+  HOUSTON,
+  INDIANAPOLIS,
+  JACKSONVILLE,
+  KANSAS_CITY,
+  LA_CHARGERS,
+  LA_RAMS,
+  MIAMI,
+  MINNESOTA,
+  NEW_ENGLAND,
+  NEW_ORLEANS,
+  NY_GIANTS,
+  NY_JETS,
+  OAKLAND,
+  PHILADELPHIA,
+  PITTSBURGH,
+  SAN_FRANCISCO,
+  SEATTLE,
+  TAMPA_BAY,
+  TENNESSEE,
+  WASHINGTON
+];
 
 export const SCORING_METRICS = [
   { id: "pointsAllowed0", name: "Points Allowed: 0", defaultValue: 15 },

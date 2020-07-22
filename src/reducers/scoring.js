@@ -1,9 +1,5 @@
-import { SCORING_METRICS } from '../data';
+import { defaultScoringValues } from '../helpers';
 
-const defaultScoringValues = SCORING_METRICS.reduce((acc, val) => {
-  acc[val.id] = val.defaultValue
-  return acc;
-}, {});
 const initialState = defaultScoringValues;
 
 const setScoring = (state = initialState, action) => {
